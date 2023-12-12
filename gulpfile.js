@@ -101,11 +101,13 @@ function cleanDist() {
 
 function building() {
     return src([
+        'app/css/iconsfont.css',
         'app/css/style.min.css',
         '!app/images/**/*.html',
         'app/images/*.*',
         '!app/images/*.svg',
         'app/images/sprite.svg',
+        'app/webfonts/*.*',
         'app/fonts/*.*',
         'app/js/main.min.js',
         'app/**/*.html',
